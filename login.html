@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="inner-wrap">
+                <button class="inner-button-toggle"><i class="fa-solid fa-bars"></i></button>
+                <div class="inner-logo">
+                    <a href="index.html">
+                        <img src="./assets/image/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <nav class="inner-menu">
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li>
+                            <a href="product.html">Danh mục <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="inner-sub-menu">
+                                <li>
+                                    <a href="#">Chó</a>
+                                    <ul class="inner-sub-sub-menu">
+                                        <li><a href="#">Chó Alaska Malamute</a></li>
+                                        <li><a href="#">Chó Corgi</a></li>
+                                        <li><a href="#">Chó Husky Siberian</a></li>
+                                        <li><a href="#">Chó Poodle</a></li>
+                                        <li><a href="#">Chó Golden Retriever</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Mèo</a>
+                                    <ul class="inner-sub-sub-menu">
+                                        <li><a href="#">Mèo Anh Lông dài</a></li>
+                                        <li><a href="#">Mèo Anh Lông ngắn</a></li>
+                                        <li><a href="#">Mèo chân ngắn</a></li>
+                                        <li><a href="#">Mèo tai cụp</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </nav>
+                <button class="inner-button-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <form action="#" class="inner-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Nhập từ khóa...">
+                </form>
+                <div class="inner-list-button">
+                    <div class="inner-button">
+                        <span class="inner-tooltip">Yêu thích</span>
+                        <a href="farvorite.html"><i class="fa-regular fa-heart"></i></a>
+                    </div>
+                    <div class="inner-button">
+                        <span class="inner-tooltip">Tài khoản</span>
+                        <a href="login.html"><i class="fa-regular fa-user"></i></a>
+                    </div>
+                    <div class="inner-button">
+                        <span class="inner-tooltip">Giỏ hàng</span>
+                        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- section-login -->
+    <div class="section-login">
+        <div class="container">
+            <div class="inner-wrap">
+                <form action="" class="inner-form">
+                    <h2 class="inner-title">
+                        Đăng nhập
+                    </h2>
+                    <div class="inner-item">
+                        <input type="email" placeholder="Email">
+                        <p class="messages">messages</p>
+                    </div>
+                    <div class="inner-item">
+                        <input type="password" placeholder="Password">
+                        <p class="messages">messages</p>
+                    </div>
+                    <div class="inner-remeber">
+                        <div class="inner-checkbox">
+                            <input type="checkbox" id="remeber">
+                            <label for="remeber">Nhớ mật khẩu</label>
+                        </div>
+                        <a href="#">Quên mật khẩu?</a>
+                    </div>
+                    <button class="button">Đăng nhập</button>
+                    <p class="inner-content">Hoặc đăng nhập với</p>
+                    <div class="inner-social-login">
+                        <button class="button color-google">Google</button>
+                        <button class="button color-facebook">Facebook</button>
+                    </div>
+                    <p class="inner-content">Bạn chưa có tài khoản? <a href="#">Đăng ký ngay</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- end section-login -->
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="inner-top">
+                <h2 class="inner-title">
+                    Đăng ký ngay để không bỏ lỡ các chương trình của chúng tôi
+                </h2>
+                <form action="" class="inner-form">
+                    <input type="text" placeholder="Nhập email của bạn...">
+                    <button>Đăng ký ngay</button>
+                </form>
+            </div>
+            <div class="inner-middle">
+                <nav class="inner-links">
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="#">Danh mục</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </nav>
+                <nav class="inner-socials">
+                    <ul>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="inner-bottom">
+                <div class="inner-copyright">
+                    © 2023 28Tech. All rights reserved.
+                </div>
+                <div class="inner-logo">
+                    <img src="./assets/image/logo.svg" alt="logo">
+                </div>
+                <nav class="inner-links">
+                    <ul>
+                        <li><a href="#">Điều khoản dịch vụ</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+</body>
+</html>
