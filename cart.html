@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="inner-wrap">
+                <button class="inner-button-toggle"><i class="fa-solid fa-bars"></i></button>
+                <div class="inner-logo">
+                    <a href="index.html">
+                        <img src="./assets/image/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <nav class="inner-menu">
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li>
+                            <a href="product.html">Danh mục <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="inner-sub-menu">
+                                <li>
+                                    <a href="#">Chó</a>
+                                    <ul class="inner-sub-sub-menu">
+                                        <li><a href="#">Chó Alaska Malamute</a></li>
+                                        <li><a href="#">Chó Corgi</a></li>
+                                        <li><a href="#">Chó Husky Siberian</a></li>
+                                        <li><a href="#">Chó Poodle</a></li>
+                                        <li><a href="#">Chó Golden Retriever</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Mèo</a>
+                                    <ul class="inner-sub-sub-menu">
+                                        <li><a href="#">Mèo Anh Lông dài</a></li>
+                                        <li><a href="#">Mèo Anh Lông ngắn</a></li>
+                                        <li><a href="#">Mèo chân ngắn</a></li>
+                                        <li><a href="#">Mèo tai cụp</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </nav>
+                <button class="inner-button-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <form action="#" class="inner-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Nhập từ khóa...">
+                </form>
+                <div class="inner-list-button">
+                    <div class="inner-button">
+                        <span class="inner-tooltip">Yêu thích</span>
+                        <a href="farvorite.html"><i class="fa-regular fa-heart"></i></a>
+                    </div>
+                    <div class="inner-button">
+                        <span class="inner-tooltip">Tài khoản</span>
+                        <a href="login.html"><i class="fa-regular fa-user"></i></a>
+                    </div>
+                    <div class="inner-button">
+                        <span class="inner-tooltip">Giỏ hàng</span>
+                        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Breadcrumb -->
+    <div class="Breadcrumb">
+        <div class="container">
+            <div class="inner-wrap">
+                <p>Trang chủ</p>
+                <p><i class="fa-solid fa-chevron-right"></i></p>
+                <p>Giỏ hàng</p>
+            </div>
+        </div>
+    </div>
+    <!-- end Breadcrumb -->
+    <!-- section-cart -->
+    <div class="section-cart">
+        <div class="container">
+            <div class="inner-wrap">
+                <h2 class="inner-title">
+                    Giỏ hàng
+                </h2>
+                <div class="inner-content">
+                    <div class="inner-cart-left">
+                        <table class="inner-table">
+                            <thead>
+                                <tr>
+                                    <th>Hình ảnh</th>
+                                    <th>Tên sản phẩm</th>
+                                    <th>Giá</th>
+                                    <th>Số lượng</th>
+                                    <th>Thành tiền</th>
+                                    <th>Hành động</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src="assets/image/product-image-1.png" alt=""></td>
+                                    <td>MO231 - Pomeranian Trắng</td>
+                                    <td>6.900.000 VND</td>
+                                    <td>
+                                        <div class="inner-quantity">
+                                            <button class="inner-button"><i class="fa-solid fa-minus"></i></button>
+                                            <input type="number" min="1" max="100" value="5">
+                                            <button class="inner-button"><i class="fa-solid fa-plus"></i></button>
+                                        </div>
+                                    </td>
+                                    <td class="inner-price">6.900.000 VND</td>
+                                    <td class="inner-trash"><i class="fa-solid fa-trash"></i></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/image/product-image-1.png" alt=""></td>
+                                    <td>MO231 - Pomeranian Trắng</td>
+                                    <td>6.900.000 VND</td>
+                                    <td>
+                                        <div class="inner-quantity">
+                                            <button class="inner-button"><i class="fa-solid fa-minus"></i></button>
+                                            <input type="number" min="1" max="100" value="5">
+                                            <button class="inner-button"><i class="fa-solid fa-plus"></i></button>
+                                        </div>
+                                    </td>
+                                    <td class="inner-price">6.900.000 VND</td>
+                                    <td class="inner-trash"><i class="fa-solid fa-trash"></i></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/image/product-image-1.png" alt=""></td>
+                                    <td>MO231 - Pomeranian Trắng</td>
+                                    <td>6.900.000 VND</td>
+                                    <td>
+                                        <div class="inner-quantity">
+                                            <button class="inner-button"><i class="fa-solid fa-minus"></i></button>
+                                            <input type="number" min="1" max="100" value="5">
+                                            <button class="inner-button"><i class="fa-solid fa-plus"></i></button>
+                                        </div>
+                                    </td>
+                                    <td class="inner-price">6.900.000 VND</td>
+                                    <td class="inner-trash"><i class="fa-solid fa-trash"></i></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <form class="inner-form-coupon">
+                            <input type="text" placeholder="Mã khuyến mãi">
+                            <button class="button">Áp dụng</button>
+                        </form>
+                    </div>
+                    <div class="inner-cart-right">
+                        <h3 class="inner-cart-total">
+                            Tổng đơn hàng
+                        </h3>
+                        <table class="inner-total">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Tạm tính
+                                    </td>
+                                    <td class="inner-subtotal">6.900.000 đ</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Phí giao hàng
+                                    </td>
+                                    <td>
+                                        <div class="inner-item">
+                                            <input type="radio" id="shipping1">
+                                            <label for="shipping1">Miễn phí</label>
+                                        </div>
+                                        <div class="inner-item">
+                                            <input type="radio" id="shipping2">
+                                            <label for="shipping2">Giao hàng nhanh: <b>50.000đ</b></label>
+                                        </div>
+                                        <div class="inner-item">
+                                            <input type="radio" id="shipping3">
+                                            <label for="shipping3">Giao hàng tiết kiệm: <b>30.000đ</b></label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Tổng tiền
+                                    </td>
+                                    <td class="inner-price-total">6.900.000 đ</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a href="#" class="button">
+                            Thanh toán
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end section-cart -->
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="inner-top">
+                <h2 class="inner-title">
+                    Đăng ký ngay để không bỏ lỡ các chương trình của chúng tôi
+                </h2>
+                <form action="" class="inner-form">
+                    <input type="text" placeholder="Nhập email của bạn...">
+                    <button>Đăng ký ngay</button>
+                </form>
+            </div>
+            <div class="inner-middle">
+                <nav class="inner-links">
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="#">Danh mục</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </nav>
+                <nav class="inner-socials">
+                    <ul>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="inner-bottom">
+                <div class="inner-copyright">
+                    © 2023 28Tech. All rights reserved.
+                </div>
+                <div class="inner-logo">
+                    <img src="./assets/image/logo.svg" alt="logo">
+                </div>
+                <nav class="inner-links">
+                    <ul>
+                        <li><a href="#">Điều khoản dịch vụ</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+</body>
+
+</html>
